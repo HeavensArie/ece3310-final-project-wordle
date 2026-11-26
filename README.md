@@ -7,9 +7,6 @@ This is the final project for ECE 3310.
 ## Helpful Notes
 
 ### New Concepts
-
-- **`std::unique_ptr`:** An owning pointer with a single owner. When it is destroyed, it automatically frees the object it owns. In the trie, destroying a node also destroys its child nodes.
-- **`std::make_unique`:** Creates an object and returns a `std::unique_ptr` that owns it.
 - **`auto`:** Tells the compiler to get its variable type from right hand side.
 
 ### GitHub Workflow if using command line
